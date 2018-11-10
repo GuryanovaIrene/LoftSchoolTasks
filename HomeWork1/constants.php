@@ -1,0 +1,4 @@
+<?php
+const PICS_COUNT = 80;
+const MARKERS_PICS_COUNT = 23;
+const PENCILS_PICS_COUNT = 40;
