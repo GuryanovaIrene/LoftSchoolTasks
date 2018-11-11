@@ -15,7 +15,17 @@
         for ($i = 1; $i <= 10; $i++) {
             echo '<tr><td>' . $i . '</td>';
             for ($j = 1; $j <= 10; $j++) {
-                echo '<td>' . $i * $j . '</td>';
+                if ($i % 2 == 0 and $j % 2 == 0) {
+                    $bg = '(';
+                    $en = ')';
+                } elseif ($i % 2 == 1 and $j % 2 == 1) {
+                    $bg = '[';
+                    $en = ']';
+                } else {
+                    $bg = '';
+                    $en = '';
+                }
+                echo '<td>' . $bg . $i * $j . $en . '</td>';
             }
             echo '</tr>';
         }
