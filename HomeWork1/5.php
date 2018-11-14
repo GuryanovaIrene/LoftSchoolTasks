@@ -10,23 +10,13 @@ $bmv['b'] = 120;
 $bmv['c'] = 5;
 $bmv['d'] = 2015;
 
-$toyota = array (
-    'a' => 'model',
-    'b' => 'speed',
-    'c' => 'doors',
-    'd' => 'year'
-);
+$toyota = $bmv;
 $toyota['a'] = 'RAV4';
 $toyota['b'] = 180;
 $toyota['c'] = 5;
 $toyota['d'] = 2016;
 
-$opel = array (
-    'a' => 'model',
-    'b' => 'speed',
-    'c' => 'doors',
-    'd' => 'year'
-);
+$opel = $bmv;
 $opel['a'] = 'Zafira';
 $opel['b'] = 195;
 $opel['c'] = 5;
